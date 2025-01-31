@@ -1,0 +1,142 @@
+/* Reset para evitar márgenes y padding extra */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f3e7f5; /* Color lila pastel claro */
+  color: #6c4f87; /* Un tono más oscuro de lila para el texto */
+  line-height: 1.6;
+}
+
+/* Estilo del encabezado */
+header {
+  background-color: #bfa1d7; /* Lila más oscuro para contraste */
+  padding: 20px;
+  text-align: center;
+}
+
+header .logo {
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 10px 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Sección tipo infografía */
+.info-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 0;
+  padding: 20px;
+}
+
+.text-block {
+  width: 50%;
+  text-align: left;
+}
+
+.text-block h1, .text-block h2 {
+  font-size: 2rem;
+  color: #6c4f87;
+}
+
+.text-block p, .text-block ul {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.text-block ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.image-block {
+  width: 45%;
+}
+
+.image-block img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Mensaje de esperanza */
+.hope-message {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #9b6aa5;
+  margin-top: 20px;
+}
+
+/* Formularios */
+form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  color: #6c4f87;
+  font-size: 16px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #d1c1e0;
+}
+
+form button {
+  background-color: #bfa1d7;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #9a7fbd;
+}
+
+/* Estilo del pie de página */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #bfa1d7;
+  color: white;
+  margin-top: 30px;
+}
